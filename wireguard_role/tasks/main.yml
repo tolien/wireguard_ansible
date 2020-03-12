@@ -13,10 +13,6 @@
   include: 'nat_and_firewall.yml'
   tags: nat_and_firewall
 
-- name: Set up unbound for DNS operations
-  include: 'dns.yml'
-  tags: dns
-
 - name: Download client configs
   include: 'download_configs.yml'
   tags: download_configs
